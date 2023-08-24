@@ -8,9 +8,6 @@
 
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 {
-	/* Create current pointer */
-	char *current;
-
 	/* If tree or func doesn't exist */
 	if (func == NULL || tree == NULL)
 		return;
